@@ -1,0 +1,123 @@
+{
+    padding:auto;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:1024px)
+body{
+    grid-template-columns: repeat (3, 1fr);
+}
+
+@media screen and (min-width:768px)
+body{
+    grid-template-columns: repeat (4, 1fr);
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-image: url(../img/Fondo1);
+}
+header{
+    background-color: coral;
+    width: 100%;
+    height: 50px;
+    clear: both;
+    display: block;
+}
+.menu{
+    width: 1000px;
+    margin: auto;
+
+}
+.Logo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    float: auto
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 30px;
+    padding: 12px 0;
+    float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    color: darkorchid;
+    font-weight: bold;
+}
+nav ul li a:before {
+    display: block;
+    width: 100%;
+    content: ;
+    background-color: blueviolet;
+    height: 5px;
+    top:0;
+    position: absolute;
+}
+
+.Inicio {
+    color:rgb(255, 29, 29) 
+}
+.Inicio {
+    font-size:25px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Productos {
+    color: rgb(255, 29, 29)
+}
+.Productos {
+    font-size:25px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Contacto {
+    color: rgb(255, 29, 29)
+}
+.Contacto {
+    font-size:25px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Ubicacion {
+    color: rgb(255, 29, 29)
+}
+.Ubicacion {
+    font-size:25px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.PreguntasFrecuentes {
+    color: rgb(255, 29, 29)
+}  
+.PreguntasFrecuentes {
+    font-size:25px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.padre-flex{
+
+display: grid;
+justify-content: space-around;
+}
+
+section {
+    width: 100%;
+    height: 50px;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+footer{
+    color: blueviolet;
+    align-content: end;
+
+}
